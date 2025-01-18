@@ -1,0 +1,35 @@
+ :root {
+  --red: #ed2788;
+  --blue:#0f479f;
+  --black:#0e0d0de7;
+ }
+
+html  {
+  width: 720px;
+  height: 100%;
+  background-color: black;
+  font-family: fantasy;
+  padding: 50px 30px 50px 30px;
+}
+
+body {
+  margin: 0;
+  position: relative;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  margin-bottom: 300px;
+}
+
+.cards img {
+  width: 350px;
+  margin-right: 40px;
+  aspect-ratio: 1/1;
+}
+
+.cards p {
+  font-size: 20px;
+  color: var(--red);
+}
