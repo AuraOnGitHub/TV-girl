@@ -5,6 +5,12 @@
  }
 
 html  {
+  
+}
+
+body {
+  margin: 0;
+  position: relative;
   width: 720px;
   height: 100%;
   background-color: black;
@@ -12,24 +18,19 @@ html  {
   padding: 50px 30px 50px 30px;
 }
 
-body {
-  margin: 0;
-  position: relative;
-}
-
 .cards {
   display: flex;
   align-items: center;
-  margin-bottom: 300px;
+  margin-bottom: 900px;
 }
 
 .cards img {
-  width: 350px;
+  width: 400px;
   margin-right: 40px;
   aspect-ratio: 1/1;
 }
 
 .cards p {
-  font-size: 20px;
+  font-size: 30px;
   color: var(--red);
 }
