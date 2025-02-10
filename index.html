@@ -2,76 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <script>
-        AOS.init();
-    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tv girl</title>
-    <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <title>Perpetual</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="cards">
-        <img class="image" alt="roblox" src="/images/demon-slayer.jpg">
-        <p>HAPPY <br>VALENTINE'S <br>DAY <br> <span style="color: var(--blue);">POOKIE</span></p>
+    <div id="floating-container"></div> <!-- Floating elements appear here -->
+
+    <div class="container">
+        <div id="story-section">
+            <p id="story-text">Once upon a time, a boy met a girl...</p>
+            <button id="next-button">Next</button>
+        </div>
+
+        <div id="question-section" style="display: none;">
+            <h1>Peppa, will you be my Valentine? ❤️</h1>
+            <div class="buttons">
+                <button id="yes-button">Yes! 💖</button>
+                <button id="no-button">No 😢</button>
+            </div>
+        </div>
     </div>
 
-    <div style="justify-content: end;" class="cards">
-        <p style="width: 220px;">I REMEMBER I HAD THE MENTALITY THAT I WOULDN'T GO FOR ANY GIRL IN MY FIRST YEAR AT ALL.<BR>
-            <span style="color: var(--blue);"> THE MENTALITY LASTED UNTIL I SAW YOU THAT NIGHT IN FRONT OF TASTY VINES. I KNEW I COULDN'T LET YOU GO</span>  <span style="color: var(--red);">
-            <br> I HAD TO TAKE THE CHANCE THAT YOU WERE IN SCIENCES TO GET YOUR NUMBER..
-            </span>
-        </p>
-        <img style="margin-right: 0; " src="/images/roblox.jpg">
-    </div>
-
-    <div class="cards">
-        <img class="image" alt="roblox" src="/images/album.jpg">
-        <p>BUT THERE COMES THE PROBLEM 
-            <span style="color: var(--blue);">
-                <br>I DIDN'T KNOW HOW TO TEXT OR APPROACH YOU. I DIDN'T WANT THE OTHERS TO KNOW ABOUT ME LIKING YOU SO I COULDN'T ASK THEM FOR HELP
-            </span>
-        </p>
-    </div>
-
-    <div style="justify-content: end;" class="cards">
-        <p>
-            I GOT SO IMMENSELY JEALOUS WHEN OTHER GUYS WOULD COME AND APPROACH YOU IN MY PRESENCE. <br>
-            <span style="color: var(--blue);">
-                I ALSO HAD THE IDEA THAT YOU DIDN'T EVEN FW ME AT ALL CAUSE YOU BASICALLY DIDN'T SPEAK TO ME AT ALL AND YOU DIDN'T GIVE ME FACE 
-            </span>
-        </p>]
-        <img style="margin-right: 0;" class="image" alt="roblox" src="/images/fire.jpg">
-    </div>
-
-    <div class="cards">
-        <img class="image" alt="roblox" src="/images/potraitblue.jpg">
-        <p style="color: var(--blue);">
-            IT ALL CHANGED THAT NIGHT WHEN BOLDLY ASKED YOU FOR A KISS <br>
-        </p>
-    </div>
-
-    <div style="font-size: 50px; color: var(--red); justify-content: center; margin-bottom: 800px;"  class="cards"> 
-        YOU NODDED YES...
-    </div>
-
-    <div style="color: var(--blue); font-size: 50px; justify-content: center; margin-bottom: 800px;" class="cards">
-        WELL HERE'S A MESSAGE
-    </div>
-
-    <div style="justify-content: center;" class="cards">
-        <video width="400px" id="autoplayVideo" loop muted>
-            <source src="/videos/bojack.mp4">
-        </video>
-
-    </div>
-
-    <div style="justify-content: end;" class="cards">
-        <img class="image" alt="roblox" src="/images/blue.jpg">
-        <p style="width: 300px; font-size: 30px;">I LOVE YOU POOKIE</p>
-    </div>
-
+    <script src="script.js"></script>
 </body>
-<script src="/script.js"></script>
 </html>
